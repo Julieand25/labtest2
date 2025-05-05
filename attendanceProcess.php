@@ -12,7 +12,7 @@ function eventAttendance($conn, $matricNum, $eventID, $date, $status){
 
     if (mysqli_stmt_execute($stmt)) {
 
-        echo "Attendance record for $matricNum successfully inserted for event $eventID.";
+   //     echo "Attendance record for $matricNum successfully inserted for event $eventID.";
     } else {
 
         return "Error: " . mysqli_error($conn);
